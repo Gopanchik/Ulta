@@ -18,9 +18,10 @@ public class Distance {
         System.out.println("Result om cantimetri to dicimetri = " + Converter.cmToDm(cm));
 
     }
+
     double distance;
 
-    public static void print(){
+    public static void print() {
         System.out.println("Welcome to converter!!!)))");
     }
 
@@ -28,7 +29,8 @@ public class Distance {
         static double metriToKilometri(double meters) {
             return meters / 1000.0;
         }
-        static int cmToDm(int cm){
+
+        static int cmToDm(int cm) {
             return cm * 10;
         }
     }
